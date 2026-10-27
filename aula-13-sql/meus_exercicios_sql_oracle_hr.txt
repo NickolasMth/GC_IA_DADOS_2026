@@ -170,7 +170,8 @@ WHERE DEPARTMENT_ID IN (
     SELECT DEPARTMENT_ID
     FROM HR.EMPLOYEES
     WHERE FIRST_NAME = 'Lex'
-);
+)
+AND FIRST_NAME <> 'Lex';
 
 ----------------------------------------------------------------
 
